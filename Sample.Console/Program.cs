@@ -15,7 +15,10 @@ namespace Sample.Console
 
             if (greeting.IsEnabled)
             {
-                System.Console.WriteLine("Hello");
+                System.Console.WriteLine(greeting.GreetingText);
+                System.Console.WriteLine(greeting.Boolean);
+                System.Console.WriteLine("Not a setting:" + greeting.ShoulNotBeLoaded);
+
             }
         }
     }
