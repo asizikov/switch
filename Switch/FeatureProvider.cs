@@ -1,5 +1,4 @@
 ﻿using System.Configuration;
-using System.Diagnostics;
 using System.Reflection;
 using System.Threading.Tasks;
 using Switch.Configuration;
