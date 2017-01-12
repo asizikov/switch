@@ -18,6 +18,7 @@ namespace Sample.Console
                 System.Console.WriteLine(greeting.GreetingText);
                 System.Console.WriteLine(greeting.Boolean);
                 System.Console.WriteLine("Not a setting:" + greeting.ShoulNotBeLoaded);
+                System.Console.WriteLine("Nested: " + greeting.Nested.Name);
 
             }
         }

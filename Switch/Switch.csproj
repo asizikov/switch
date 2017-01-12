@@ -40,9 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigurationLoadingException.cs" />
+    <Compile Include="ConfigurationParameterReader.cs" />
     <Compile Include="Configuration\NotASettingAttribute.cs" />
+    <Compile Include="Feature.cs" />
     <Compile Include="FeatureProvider.cs" />
     <Compile Include="FeatureToggle.cs" />
+    <Compile Include="IFeatureProvider.cs" />
+    <Compile Include="OptionalAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Read\CustomActivator.cs" />
   </ItemGroup>

@@ -10,5 +10,7 @@ namespace Sample.Console.FeatureToggles
 
         [NotASetting]
         public string ShoulNotBeLoaded { get; set; }
+
+        public Nested Nested { get; set; }
     }
 }
